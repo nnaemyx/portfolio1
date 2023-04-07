@@ -71,9 +71,9 @@ const about = () => {
                   In my free time, I enjoy exploring new design concepts and
                   experimenting with new technologies. I am dedicated to
                   creating responsive, cross-platform web applications that
-                  provide a seamless user experience. If you're looking for a
+                  provide a seamless user experience. If you are looking for a
                   Frontend Developer who can bring your ideas to life, I am here
-                  to help. Let's work together to create something amazing.
+                  to help. Lets work together to create something amazing.
                 </p>
               </div>
             </div>
