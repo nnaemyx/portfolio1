@@ -42,7 +42,7 @@ const about = () => {
         <Layouts className="pt-16">
           <AnimatedText
             text="Passion Fuels Purpose!"
-            className="mb-16 text-[4rem]"
+            className="mb-16 text-[4rem] lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16">
             <div className="col-span-3 flex flex-col items-start justify-start">
