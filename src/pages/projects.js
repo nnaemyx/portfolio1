@@ -95,7 +95,7 @@ const Project = ({ title, summary, type, img, link, github }) => {
           <h2 className="my-2 w-full text-left text-3xl font-bold">{title}</h2>
         </Link>
 
-        <p className="my-2 font-medium text-dark">{summary}</p>
+        <p className="my-2 font-medium dark:text-light text-dark">{summary}</p>
 
         <div className="flex justify-between w-full mt-2 items-center">
           <Link
@@ -136,7 +136,7 @@ const projects = () => {
                 summary="This is School website developed by the TEZON team. I did some of the frontend part and also some of the backend. Here you can find a variety of helpful resources to support your academic journey. We have a section specifically dedicated to providing students with access to downloadable PDFs. Simply navigate to the Register page, create and account and browse through the available files. We used Reactjs, Tailwindcss and Nodejs"
                 link="https://ece-nau.com"
                 img={project1}
-                type="featured projects"
+                type="Full-Stack App"
                 github="/"
               />
             </div>
@@ -154,17 +154,29 @@ const projects = () => {
               <Project
                 title="Analytics Website"
                 summary="This is a landing page for analytics, i used Reactjs and Tailwindcss. Here we provide comprehensive data analysis and visualization tools to help you gain insights into your business performance"
-                link="https://ece-nau.com"
+                link="https://tailwind-react-tawny.vercel.app/"
                 img={project3}
                 type="featured projects"
                 github="/"
               />
             </div>
+
             <div className="col-span-12">
               <FeaturedProjects
-                title="School Website"
-                summary="ecffg"
-                link="https://ece-nau.com"
+                title="TO-DO App"
+                summary="This is a full stack app where you can sign up and set your gals for the day"
+                link="https://mern-h9n4.onrender.com/"
+                img={project1}
+                type="Full-Stack App"
+                github="/"
+              />
+            </div>
+            
+            <div className="col-span-6">
+              <Project
+                title="Health Care Website"
+                summary="A personal project, i used Reactjs and Tailwindcss"
+                link="https://healthcare-c8mm.vercel.app/"
                 img={project4}
                 type="featured projects"
                 github="/"
@@ -172,9 +184,9 @@ const projects = () => {
             </div>
             <div className="col-span-6">
               <Project
-                title="School Website"
-                summary="ecffg"
-                link="https://ece-nau.com"
+                title="HealthCare Website"
+                summary="A personal project, i used Reactjs and Tailwindcss"
+                link="https://healthcare-c8mm.vercel.app/"
                 img={project5}
                 type="featured projects"
                 github="/"
@@ -182,29 +194,42 @@ const projects = () => {
             </div>
             <div className="col-span-6">
               <Project
-                title="School Website"
-                summary="ecffg"
+                title="Fintech Website"
+                summary="I developed this with Reactjs and Tailwindcss"
                 link="https://ece-nau.com"
                 img={project6}
                 type="projects"
                 github="/"
               />
             </div>
-            <div className="col-span-12">
-              <FeaturedProjects
+            <div className="col-span-6">
+              <Project
                 title="School Website"
-                summary="ecffg"
-                link="https://ece-nau.com"
+                summary="Currently working on this. This site is for Engineering students in unizik where they can download resources and see recent and upcoming events
+                . I'm the project manager. The link under is the demo link
+                "
+                link="https://client-side-livid.vercel.app/"
                 img={project7}
                 type="featured projects"
                 github="/"
               />
             </div>
+
+            <div className="col-span-12">
+              <FeaturedProjects
+                title="School Website"
+                summary="I developed an app that stores users data in a database"
+                link="https://chemical.onrender.com/"
+                img={project1}
+                type="Full-Stack App"
+                github="/"
+              />
+            </div>
             <div className="col-span-6">
               <Project
-                title="School Website"
-                summary="ecffg"
-                link="https://ece-nau.com"
+                title="Fintech Website"
+                summary="Personal project"
+                link="https://hook-bank.vercel.app/"
                 img={project8}
                 type="featured projects"
                 github="/"
@@ -212,9 +237,9 @@ const projects = () => {
             </div>
             <div className="col-span-6">
               <Project
-                title="School Website"
+                title="Web3 Website"
                 summary="ecffg"
-                link="https://ece-nau.com"
+                link="https://www.codenjobs.com/register"
                 img={project9}
                 type="featured projects"
                 github="/"
@@ -222,9 +247,9 @@ const projects = () => {
             </div>
             <div className="col-span-6">
               <Project
-                title="School Website"
+                title="Web3 Website"
                 summary="ecffg"
-                link="https://ece-nau.com"
+                link="https://www.codenjobs.com/register"
                 img={project10}
                 type="featured projects"
                 github="/"
@@ -232,9 +257,9 @@ const projects = () => {
             </div>
             <div className="col-span-6">
               <Project
-                title="School Website"
-                summary="ecffg"
-                link="https://ece-nau.com"
+                title="HNG Internship"
+                summary="I participated in the recent HNG internship program but couldn't finish "
+                link="https://hngstage1.vercel.app/"
                 img={project5}
                 type="Projects"
                 github="/"

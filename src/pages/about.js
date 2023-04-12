@@ -44,8 +44,8 @@ const about = () => {
             text="Passion Fuels Purpose!"
             className="mb-16 text-[4rem] lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
-          <div className="grid w-full grid-cols-8 gap-16">
-            <div className="col-span-3 flex flex-col items-start justify-start">
+          <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
+            <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-5">
               <h2 className="mb-4 text-lg font-bold dark:text-light/75 uppercase text-dark/75">
                 Biography
               </h2>
@@ -88,7 +88,7 @@ const about = () => {
               {/* rounded-2xl border-2 border-solid border-dark bg-light */}
             </div>
 
-            <div className="col-span-2 flex flex-col items-end justify-between">
+            <div className="col-span-2 flex flex-col items-end xl:col-span-4 xl:gap-[4rem] xl:flex-row xl:items-center justify-between">
               <div className="flex flex-col items-end justify-center">
                 <span className="inline-block text-7xl font-bold">
                   <AnimatedNumbers value={5} />+
