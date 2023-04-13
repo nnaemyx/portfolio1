@@ -15,6 +15,8 @@ import project7 from "../../public/images/projects/nuesa.png";
 import project8 from "../../public/images/projects/hoobank.png";
 import project9 from "../../public/images/projects/linkedinprofile.png";
 import project10 from "../../public/images/projects/loginandsignup.png";
+import project11 from "../../public/images/projects/goalsetter.jpg"
+import project12 from '../../public/images/projects/chemical.jpg'
 
 const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
   return (
@@ -166,7 +168,7 @@ const projects = () => {
                 title="TO-DO App"
                 summary="This is a full stack app where you can sign up and set your gals for the day"
                 link="https://mern-h9n4.onrender.com/"
-                img={project1}
+                img={project11}
                 type="Full-Stack App"
                 github="/"
               />
@@ -220,7 +222,7 @@ const projects = () => {
                 title="School Website"
                 summary="I developed an app that stores users data in a database"
                 link="https://chemical.onrender.com/"
-                img={project1}
+                img={project12}
                 type="Full-Stack App"
                 github="/"
               />
