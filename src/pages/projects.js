@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/ece-nau.jpg";
+import project1 from "../../public/images/projects/artsbyart.png";
 import project2 from "../../public/images/projects/furnishop.jpg";
 import project3 from "../../public/images/projects/analytics.png";
 import project4 from "../../public/images/projects/healthcare.jpg";
@@ -17,6 +17,8 @@ import project9 from "../../public/images/projects/linkedinprofile.png";
 import project10 from "../../public/images/projects/loginandsignup.png";
 import project11 from "../../public/images/projects/goalsetter.jpg"
 import project12 from '../../public/images/projects/chemical.jpg'
+import project13 from "../../public/images/projects/mmainspire.png"
+import project14 from "../../public/images/projects/entrypal.png"
 
 const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
   return (
@@ -136,10 +138,30 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 gap-y-32">
             <div className="col-span-12">
               <FeaturedProjects
-                title="School Website"
-                summary="This is School website developed by the TEZON team. I did some of the frontend part and also some of the backend. Here you can find a variety of helpful resources to support your academic journey. We have a section specifically dedicated to providing students with access to downloadable PDFs. Simply navigate to the Register page, create and account and browse through the available files. We used Reactjs, Tailwindcss and Nodejs"
-                link="https://ece-nau.com"
+                title="E-commerce Website"
+                summary="Arts by Art is an online platform for managing art-related projects, providing functionalities such as a ticketing system for project assignment, procedure tracking, and progress monitoring. Users can upload and manage media files, while the platform supports real-time progress updates and includes a chat feature for communication between users and Integrated Consultants. The system leverages React.js for the frontend, Node.js and Express for the backend, and Appwrite for database management and user authentication."
+                link="https://www.artsbyart.com"
                 img={project1}
+                type="Full-Stack App"
+                github="/"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProjects
+                title="E-commerce Website"
+                summary="Mmainspire is an online platform for managing fashion-related projects, providing functionalities such as a ticketing system for project assignment, procedure tracking, and progress monitoring. Users can upload and manage media files, while the platform supports real-time progress updates and includes a chat feature for communication between users and Integrated Consultants. The system leverages React.js for the frontend, Node.js and Express for the backend, and Appwrite for database management and user authentication."
+                link="https://www.mmainspire.com"
+                img={project13}
+                type="Full-Stack App"
+                github="/"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProjects
+                title="Ticketing Website"
+                summary="EntryPal is a digital tool designed to streamline entry management for events and venues, providing efficient guest check-ins and real-time tracking. It offers features such as QR code scanning, attendee verification, and detailed analytics to enhance event security and organization. The app aims to simplify the entry process, ensuring a seamless experience for both organizers and guests."
+                link="https://www.entrypalapp.com"
+                img={project14}
                 type="Full-Stack App"
                 github="/"
               />
@@ -148,7 +170,7 @@ const projects = () => {
               <Project
                 title="E-commerce Website"
                 summary="I developed this using Reactjs and Tailwindcss. Here you can discover a vast collection of high-quality and stylish furniture for your home or office"
-                link="https://ece-nau.com"
+                link="https://www.mmainspire.com"
                 img={project2}
                 type="featured projects"
                 github="/"
